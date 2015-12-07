@@ -206,7 +206,7 @@ int mt_printf(const char *format, ...)
 
 void* thread1(void* info_void)
 { 
-    thread_info* info = (thread_info*)info_void;
+  thread_info* info = (thread_info*)info_void;
 	char in_buf[IN_BUF_SIZE];
 	thread_info *next_thread = &thread_infos[1];
 	while(1)
